@@ -58,6 +58,9 @@ server.delete('/videos/:id', async (request, reply) => {
     return reply.status(204).send()
 })
 
+server.get('/', async (request, reply) => {
+    return "Estou vivo"
+})
 
 
 server.listen({
