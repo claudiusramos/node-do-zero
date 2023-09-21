@@ -71,7 +71,7 @@ server.delete('/videos/:id', async (request, reply) => {
 })
 
 server.get('/', async (request, reply) => {
-    return "Estou vivo"
+    return "Estou vivo sem variáveis de ambiente"
 })
 
 
