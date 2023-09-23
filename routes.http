@@ -3,7 +3,7 @@ Content-Type: application/json
 
 
 {
-    "title": "Video sobre node",
+    "title": "Novo vídeo",
     "description": "Primeiro Vídeo sobre node",
     "duration": 180
 }
@@ -37,3 +37,17 @@ DELETE http://localhost:3000/videos/3470b596-10fc-43d7-bfc1-af6233abdb65
 ###
 
 GET https://node-do-zero-qh7w.onrender.com/videos
+
+###
+POST  https://node-do-zero-qh7w.onrender.com/videos
+Content-Type: application/json
+
+
+{
+    "title": "Posso cadastrar um lembrete",
+    "description": "Novo vídeo",
+    "duration": 180
+}
+
+
+# Extensão 'REST Client' do HUACHAO
